@@ -1,12 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        * {
+            padding: auto;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <div>
+        <div>
+            <h1>CatphotoApp</h1>
+            <h2>Cat Photos</h2>
+            <p>Click here to view more <a href="#">cat photos</a>.</p>
+            <a href=""><img src="image/1/relaxing-cat.jpg" alt=""></a>
+        </div>
+        <div>
+            <h1>Cat Lists</h1>
+            <h2>Things cats love:</h2>
+            <ul>
+                <li>cat nip</li>
+                <li>laser pointers</li>
+                <li>lasagna</li><br>
+                <img src="image/1/lasagna.jpg" alt="">
+                <p style="margin-top: 0px;">Cats <i>love</i> lasagna.</p>
+            </ul>
+        </div>
+        <div>
+            <h1>Top 3 things cats hate:</h1>
+            <ol>
+                <li>flea treatment</li>
+                <li>thunder</li>
+                <li>other cats</li><br>
+                <img src="image/1/cats.jpg" alt="">
+                <p style="margin: 0;">Cats <b>hate</b> other cats.</p>
+            </ol>
+        </div>
+        <div>
+            <!-- 可以将表单内的相关元素分组,标签会在相关表单元素周围绘制边框 -->
+            <fieldset>
+                <legend>Is your cat an indoor or outdoor cat?</legend>
+                    <label for=""><input type="radio" name="cat" value="in">Indoor</label>
+                    <label for=""><input type="radio" name="cat" value="out">Outdoor</label>               
+            </fieldset>
+            <fieldset>
+                <legend>What's your cat's personality?</legend>
+                <label for=""><input type="checkbox" name="personality" value="love">Loving</label>
+                <label for=""><input type="checkbox" name="personality" value="lazy">Lazy</label>
+                <label for=""><input type="checkbox" name="personality" value="Ener">Energetic</label>
+            </fieldset>
+            <input type="text" placeholder="cat photo URL"> <button>Submit</button>
+        </div>
+        <p>No Copyright - <a href="#">freeCodeCamp.org</a></p>
+    </div>
 </body>
+
 </html>
