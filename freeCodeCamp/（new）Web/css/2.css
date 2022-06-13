@@ -10,6 +10,7 @@ body {
     background-color: burlywood;
     margin-left: auto;
     margin-right: auto;
+    /* 设置元素最大宽度，使之能够在页面宽度大小变化的时候随之变化 */
     max-width: 500px;
 }
 
@@ -46,6 +47,7 @@ hr {
 }
 
 .item p {
+    /* 块元素处于同一平面上，在元素上允许设置元素的宽/高度 */
     display: inline-block;
     font-size: 18px;
     margin-top: 5px;
